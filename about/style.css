@@ -1,0 +1,158 @@
+html {
+    float: center;
+    text-align: left;
+    font-family: didot;
+    text-align: left;
+}
+
+.triangles {
+    background-color: #FFFFFF;
+    margin-top: 12px;
+} 
+
+.content1 {
+    background-color: #000000;
+    margin-top: 100px;
+    margin-left: 80px;
+} 
+
+.content2 {
+    background-color: #FFFFFF;
+    margin-top: 123px;
+    margin-left: 799px;
+    opacity: 0.7;
+}
+
+.content3 {
+    background-color: #000000;
+    margin-top: 1160px;
+    margin-left: 80px;
+}
+
+.lookimg {
+    margin-top: 200px;
+    margin-left: 80px;
+}
+
+.icon {
+    margin-top: -5px;
+    margin-left: -5px;
+            width: 85px;
+        height: 85px;
+}
+
+.logo {
+    margin-top: 123px;
+    margin-left: 799px;
+}
+
+.phoneicon {
+    margin-top: 822px;
+    margin-left: 839px;
+}
+
+#descriptions {
+    font-size: 19px;
+    color: #2b2b2b;
+    margin-top: 440px;
+    margin-left: 845px;
+    margin-right: 100px;
+    line-height: 36px;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 72px;
+}
+
+p {
+    color: #FFFFFF;
+    margin-left: 120px;
+    margin-top: 15px;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing:15.8px;
+}
+
+body {
+    color: #FFFFFF;
+    background-color: #000000;
+    font-size: 72;
+    z-index: 1;
+}
+
+a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:active {
+    color:#46b7b4;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#46b7b4;
+    text-decoration: none;
+}
+
+@media only screen and (min-height: 1000px) {
+    p {
+        font-size: 38px;
+        margin-top: 34px;
+        letter-spacing:14px;
+        margin-right: -250px;
+        margin-left: 260px;
+    }
+
+    .triangles {
+        margin-top: 90px;
+    } 
+
+    .content1 {
+        margin-top: 160px;
+    } 
+
+    .content2 {
+        margin-top: 160px;
+        margin-left: 798px;
+        opacity: 0.85;
+    }
+
+    .lookimg {
+        margin-top: 260px;
+    }
+
+    .logo {
+        margin-top: 160px;
+        margin-left: 798px;
+    }
+
+    .content3 {
+        margin-top: 1220px;
+    }
+
+    .icon {
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .phoneicon {
+        opacity: 0.0;
+    }
+
+    #descriptions {
+        font-size: 31px;
+        margin-top: 480px;
+        margin-left: 835px;
+        margin-right: -200px;
+        line-height: 37px;
+    }
+}
